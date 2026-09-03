@@ -1,3 +1,2 @@
 # Web-activity
-Coffee shop 
-Coffee shop website
+ Coffee shop website
