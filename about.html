@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Coffee Shop</title>
+  <meta name="description" content="Learn about the story and team behind Coffee Shop.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">☕ Coffee Shop</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" aria-pressed="false">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <h1>Our Story</h1>
+        <p>From a small idea to your favorite corner cafe.</p>
+      </div>
+    </section>
+
+    <section class="section about-story">
+      <div class="container about-grid">
+        <div class="about-image" aria-hidden="true">☕📖</div>
+        <div class="about-text">
+          <h2>How Coffee Shop Began</h2>
+          <p>Coffee Shop started in 2020 with one simple goal: serve honest, delicious coffee in a place that feels like home. What began as a tiny counter has grown into a neighborhood favorite, but our values haven't changed.</p>
+          <p>We work directly with small coffee farms, roast our beans in small batches, and bake our pastries fresh every morning. Every cup is made with care by people who genuinely love what they do.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section values">
+      <div class="container">
+        <h2>What We Stand For</h2>
+        <div class="card-grid">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🌍</div>
+            <h3>Sustainability</h3>
+            <p>Fair-trade beans, recyclable packaging, and eco-conscious practices in every part of our shop.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🤝</div>
+            <h3>Community</h3>
+            <p>We host local artists, student meetups, and open-mic nights to keep our space full of life.</p>
+          </article>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">✨</div>
+            <h3>Quality</h3>
+            <p>From bean to cup, we never cut corners on taste, freshness, or service.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section team">
+      <div class="container">
+        <h2>Meet the Team</h2>
+        <div class="card-grid">
+          <article class="card team-card">
+            <div class="team-avatar" aria-hidden="true">👩‍🍳</div>
+            <h3>Aisha</h3>
+            <p>Founder &amp; Head Roaster</p>
+          </article>
+          <article class="card team-card">
+            <div class="team-avatar" aria-hidden="true">👨‍🍳</div>
+            <h3>Daniel</h3>
+            <p>Head Barista</p>
+          </article>
+          <article class="card team-card">
+            <div class="team-avatar" aria-hidden="true">🧑‍🍳</div>
+            <h3>Mei Ling</h3>
+            <p>Pastry Chef</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Coffee Shop. All rights reserved.</p>
+      <p>Made with care by our student web team.</p>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

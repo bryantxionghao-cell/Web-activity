@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | Coffee Shop</title>
+  <meta name="description" content="Explore our full menu of coffee, tea, and pastries at Coffee Shop.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">☕ Coffee Shop</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html" class="active">Menu</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" aria-pressed="false">🌙</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <h1>Our Menu</h1>
+        <p>Freshly made, every single day.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2 class="menu-heading">Coffee</h2>
+        <table class="menu-table">
+          <caption class="sr-only">Coffee menu items and prices</caption>
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Description</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Espresso</th>
+              <td>Bold double shot, served hot</td>
+              <td>RM 8.90</td>
+            </tr>
+            <tr>
+              <th scope="row">Americano</th>
+              <td>Espresso topped with hot water</td>
+              <td>RM 9.90</td>
+            </tr>
+            <tr>
+              <th scope="row">Cappuccino</th>
+              <td>Espresso, steamed milk, thick foam</td>
+              <td>RM 11.90</td>
+            </tr>
+            <tr>
+              <th scope="row">Caramel Latte</th>
+              <td>Espresso, steamed milk, caramel drizzle</td>
+              <td>RM 12.90</td>
+            </tr>
+            <tr>
+              <th scope="row">Mocha Delight</th>
+              <td>Espresso, chocolate, steamed milk</td>
+              <td>RM 13.90</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 class="menu-heading">Tea &amp; Others</h2>
+        <table class="menu-table">
+          <caption class="sr-only">Tea and other drinks menu items and prices</caption>
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Description</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Green Tea</th>
+              <td>Classic hot or iced green tea</td>
+              <td>RM 8.50</td>
+            </tr>
+            <tr>
+              <th scope="row">Chai Latte</th>
+              <td>Spiced tea with steamed milk</td>
+              <td>RM 10.90</td>
+            </tr>
+            <tr>
+              <th scope="row">Hot Chocolate</th>
+              <td>Rich cocoa topped with whipped cream</td>
+              <td>RM 11.50</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 class="menu-heading">Pastries</h2>
+        <table class="menu-table">
+          <caption class="sr-only">Pastries menu items and prices</caption>
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Description</th>
+              <th scope="col">Price</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Butter Croissant</th>
+              <td>Flaky, buttery, baked fresh daily</td>
+              <td>RM 7.50</td>
+            </tr>
+            <tr>
+              <th scope="row">Blueberry Muffin</th>
+              <td>Soft muffin loaded with blueberries</td>
+              <td>RM 8.00</td>
+            </tr>
+            <tr>
+              <th scope="row">Chocolate Brownie</th>
+              <td>Fudgy brownie with dark chocolate chunks</td>
+              <td>RM 9.00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Coffee Shop. All rights reserved.</p>
+      <p>Made with care by our student web team.</p>
+    </div>
+  </footer>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
